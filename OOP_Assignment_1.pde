@@ -1,5 +1,7 @@
 import processing.sound.*;
 
+import processing.sound.*;
+
 void setup()
 {
   size(1536,713);
@@ -15,11 +17,18 @@ void setup()
   smooth();
   
   Recharge = new SoundFile(this, "Shield Recharge.mp3");
+  Recharge.play();
+  OvShield = new SoundFile(this,"Overshield Power-Up");
+  
+  if(overshield_sound ==  true)
+  {
+    OvShield.play();
+  }
 }
 
 
 SoundFile Recharge;
-
+SoundFile OvShield;
 PImage view;
 PImage view2;
 PImage view3;
@@ -37,6 +46,7 @@ float speed = 0.01;
 float power = 99.99;
 color overshield = color(255,100,220,100);
 int op =0;
+boolean overshield_sound = false;
 
 void draw()
 {
@@ -57,12 +67,12 @@ void draw()
      
      if(time>100)
      {
-       Recharge.play();
+       
        background(view);
        
           if(keyPressed==true)
         {
-          
+          overshield_sound = true;
           fill(overshield);
           noStroke();
           rect(0,0,2000,2000);
