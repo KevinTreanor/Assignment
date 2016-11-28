@@ -231,3 +231,18 @@ void draw()
         vertex(1176,713);
         vertex(1376,713);//Should be 1536 but my computer's resolution is too small to test it properly
         endShape(CLOSE);
+        
+        
+        beginShape();//centre 688
+        vertex(388,0);
+        vertex(438,10);
+        vertex(938,10);
+        vertex(988,0);
+        endShape(CLOSE);
+        
+       
+        
+     
+        
+        
+        
