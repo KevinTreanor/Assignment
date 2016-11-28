@@ -14,4 +14,4 @@ The points I am most proud of in this assignment are:
 
 The youtube video is linked below:         --Note apologies for any lag in the video, my home PC isn't very good.
 
-[![Video](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=https://www.youtube.com/watch?v=DMT4uL1dJKw)
+[![Video](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=DMT4uL1dJKw)
