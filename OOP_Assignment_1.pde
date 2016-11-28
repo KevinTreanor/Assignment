@@ -311,3 +311,11 @@ void sounds()
   
  testbool = false;
 }
+
+
+void boop()
+{
+
+  Beep.loop();
+  
+}
