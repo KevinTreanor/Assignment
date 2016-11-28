@@ -280,3 +280,23 @@ void draw()
     
     fill(255,255,255);
     text( "POWER FAILURE \nPREPARING TO SHUTDOWN",300,356);
+    
+    
+    
+    
+    fill(0,255,0);
+    text("HOLD FOR RECHARGE",300,556);
+    
+    if(300<= mouseX&& mouseX<= 1200 && 503<=mouseY&& mouseY <= 580)
+            {
+              if(mousePressed ==true)
+              {
+                  textSize(100);
+                  background(0,0,0);
+                  text("Recharging...",300,200);
+              }
+            }
+    
+  }
+
+}
