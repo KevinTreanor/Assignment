@@ -178,3 +178,10 @@ void draw()
               {
                 image(view4,250,100);
                 fill(0, 235, 220,120);
+                 rect(950,100,400,400);
+                fill(30,0,30);
+                text("Holly brush line.\n Camoflague rate 80%. \n Ideal for recharging suit. ",951,110);
+              
+              }  
+            }
+        }
