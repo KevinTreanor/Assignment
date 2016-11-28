@@ -74,3 +74,8 @@ void draw()
         {
           overshield_sound = true;
           fill(overshield);
+           noStroke();
+          rect(0,0,2000,2000);
+          power = power - 1.01;
+          
+        }
