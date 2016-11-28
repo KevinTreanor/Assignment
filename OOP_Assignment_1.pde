@@ -24,3 +24,8 @@ void setup()
   
   
 }
+
+SoundFile Recharge;
+SoundFile OvShield;
+SoundFile Shutdown;
+SoundFile Beep;
