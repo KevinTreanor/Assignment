@@ -133,3 +133,9 @@ void draw()
      
         
         textSize(15);
+         if(y>=100)
+          {
+            ellipse(975,100,10,10);
+            
+            if(965<= mouseX&& mouseX<= 985 && 90<=mouseY&& mouseY <= 110)
+            {
