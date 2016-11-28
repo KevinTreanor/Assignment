@@ -193,3 +193,6 @@ void draw()
             {
               if(mousePressed ==true)
               {
+                image(view5,250,100);
+                fill(0, 235, 220,120);
+                rect(950,100,400,400);
