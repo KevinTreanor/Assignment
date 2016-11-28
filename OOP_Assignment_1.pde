@@ -123,3 +123,13 @@ void draw()
        
         stroke(0, 255, 240,200);
         line(0, y, width, y);
+        
+        y++;
+       
+        fill(0, 255, 240, 200);
+        
+       
+        
+     
+        
+        textSize(15);
