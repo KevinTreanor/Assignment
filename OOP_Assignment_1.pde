@@ -271,3 +271,12 @@ void draw()
       boop();
       
     }
+    
+   
+     
+  
+    textSize(50);
+    background(255,0,0);
+    
+    fill(255,255,255);
+    text( "POWER FAILURE \nPREPARING TO SHUTDOWN",300,356);
