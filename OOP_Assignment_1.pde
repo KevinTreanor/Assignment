@@ -62,3 +62,11 @@ void draw()
        fill(255,255,255,op);
        text("Loading....",575,650);
        op  = op+5;
+       
+     
+     
+     
+     if(time>100)
+     {
+       
+       background(view);
