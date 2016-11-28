@@ -246,3 +246,15 @@ void draw()
         
         
         
+        float intensityChange = 255.0f / trailLength;
+        for(int i = 0 ; i < trailLength ; i ++)
+        {
+          float lineTheta = theta - (i * speed);
+          stroke(0, 255, 240,50);
+          float x1 = 150 + sin(lineTheta) * radius;
+          float y1 = 550 - cos(lineTheta) * radius;
+          line(150, 550, x1, y1);
+        }
+        theta += speed;
+       
+     }
