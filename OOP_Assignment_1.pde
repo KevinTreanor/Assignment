@@ -139,3 +139,7 @@ void draw()
             
             if(965<= mouseX&& mouseX<= 985 && 90<=mouseY&& mouseY <= 110)
             {
+              if(mousePressed ==true)
+              {
+                image(view2,250,100);
+                fill(0, 235, 220,120);
