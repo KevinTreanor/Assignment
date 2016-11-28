@@ -46,3 +46,7 @@ float speed = 0.01;
 float power = 99.99;
 color overshield = color(255,100,220,100);
 int op =0;
+boolean overshield_sound = false;
+boolean shutdown_sound = false;
+boolean beep_sound = false;
+boolean testbool = true;
