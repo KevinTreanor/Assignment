@@ -268,14 +268,14 @@ void draw()
     background(255,0,0);
     
     fill(255,255,255);
-    text( "POWER FAILURE \nPREPARING TO SHUTDOWN",300,356);
+    text( "POWER LEVEL CRITICAL \nPREPARING TO SHUTDOWN",300,356);
     
     
     
     fill(0,255,0);
     text("HOLD FOR RECHARGE",300,556);
     
-    if(300<= mouseX&& mouseX<= 1200 && 503<=mouseY&& mouseY <= 580)
+    if(300<= mouseX&& mouseX<= 2000 && 400<=mouseY&& mouseY <= 600)
             {
               if(mousePressed ==true)
               {
