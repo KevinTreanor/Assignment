@@ -319,3 +319,19 @@ void boop()
   Beep.loop();
   
 }
+
+void keyPressed()
+{
+  
+  if(keyPressed == true)
+  {
+    
+      OvShield.play();
+   
+  }
+  else
+  {
+    OvShield.stop();
+  }
+  
+}
