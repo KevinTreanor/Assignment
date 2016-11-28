@@ -1,7 +1,3 @@
-import processing.sound.*;
-
-
-
 void setup()
 {
   size(1536,713);
@@ -50,14 +46,15 @@ boolean overshield_sound = false;
 boolean shutdown_sound = false;
 boolean beep_sound = false;
 boolean testbool = true;
-
 void draw()
 {
      
      font = createFont("Halo.ttf", 32);
      textFont(font);
      textSize(50);
-            background(0,0,0);
+     
+    
+       background(0,0,0);
        image(view6,500,5);
        fill(255,255,255,op);
        text("Loading....",575,650);
@@ -70,11 +67,12 @@ void draw()
      {
        
        background(view);
-       if(keyPressed==true)
+       
+          if(keyPressed==true)
         {
           overshield_sound = true;
           fill(overshield);
-           noStroke();
+          noStroke();
           rect(0,0,2000,2000);
           power = power - 1.01;
           
@@ -85,15 +83,14 @@ void draw()
         {
           text("Scanning....",1000,50);
         }
-         else
+        else
         {
           text("Scanning Complete", 1000,50);
         }
-         
+       
        
        stroke(0,0,0);
        fill(100,255,100,200);
-       
        beginShape();
        vertex(1200,600);
        vertex(1300,600);
@@ -110,7 +107,7 @@ void draw()
        
        stroke(0, 255, 240,200);
        fill(0, 255, 240, 50);
-       
+  
        ellipse(150,550,200,200);
        ellipse(150,550,150,150);
        ellipse(150,550,100,100);
@@ -123,7 +120,7 @@ void draw()
        
         stroke(0, 255, 240,200);
         line(0, y, width, y);
-        
+    
         y++;
        
         fill(0, 255, 240, 200);
@@ -133,7 +130,7 @@ void draw()
      
         
         textSize(15);
-         if(y>=100)
+        if(y>=100)
           {
             ellipse(975,100,10,10);
             
@@ -146,7 +143,7 @@ void draw()
                 rect(950,100,400,400);
                 fill(30,0,30);
                 text("The Halo Array, Halos,\n alternatively known as the Sacred\n Rings by the Covenant, \n Fortress Worlds by their creators,\n Installations by the A.I. Monitors\n that run them, and the Great Wheels\n by prehistoric humans, are seven\n (originally there were twelve) massive\n ring-shaped installations constructed by the\n Forerunners throughout the galaxy over \n one hundred thousand years ago as a \nlast resort when combating the parasite known\n as the Flood. When nothing else\n could be done, they activated\n the rings which killed all sentient life\n forms within three radii of the\n galactic center. Not only are they weapons\n of last resort, but the Halo installations\n are also research facilities, \nmainly for the study of the Flood.",951,110);
-                
+               
               
               }
             }
@@ -163,7 +160,7 @@ void draw()
                 rect(950,100,400,400);
                 fill(30,0,30);
                 text("Vantage point. Ideal for scouting,\n gathering intel of surroundings. \n Could be used as a sniper nest. ",951,110);
-                
+              
               }  
             }
         }
@@ -173,19 +170,18 @@ void draw()
           ellipse(350,500,10,10);
           if(340<= mouseX&& mouseX<= 360 && 490<=mouseY&& mouseY <= 510)
             {
-              
               if(mousePressed ==true)
               {
                 image(view4,250,100);
                 fill(0, 235, 220,120);
-                 rect(950,100,400,400);
+                rect(950,100,400,400);
                 fill(30,0,30);
                 text("Holly brush line.\n Camoflague rate 80%. \n Ideal for recharging suit. ",951,110);
               
               }  
             }
         }
-        
+      
         if(y>=600)
         {
           ellipse(1050,600,10,10);
@@ -204,10 +200,8 @@ void draw()
         }
         
         
-        
         fill(0, 255, 240,100);
         stroke(255,255,255);
-        
         
         beginShape();
         vertex(488,100);
@@ -215,7 +209,6 @@ void draw()
         vertex(838,75);
         vertex(538,75);
         endShape(CLOSE);
-        
   
         fill(0);
         beginShape();
@@ -223,15 +216,12 @@ void draw()
         vertex(200,713);
         vertex(0,713);
         endShape(CLOSE);
-        
-        
   
         beginShape();
         vertex(1376,600);
         vertex(1176,713);
         vertex(1376,713);//Should be 1536 but my computer's resolution is too small to test it properly
         endShape(CLOSE);
-        
         
         beginShape();//centre 688
         vertex(388,0);
@@ -258,7 +248,7 @@ void draw()
         theta += speed;
        
      }
-      time++;
+  time++;
 
   if(power <=0)
   {
@@ -271,7 +261,6 @@ void draw()
       boop();
       
     }
-    
    
      
   
@@ -280,7 +269,6 @@ void draw()
     
     fill(255,255,255);
     text( "POWER FAILURE \nPREPARING TO SHUTDOWN",300,356);
-    
     
     
     
@@ -312,14 +300,12 @@ void sounds()
  testbool = false;
 }
 
-
 void boop()
 {
 
   Beep.loop();
   
 }
-
 void keyPressed()
 {
   
