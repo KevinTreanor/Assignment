@@ -98,3 +98,8 @@ void draw()
        vertex(1200,600);
        vertex(1300,600);
        vertex(1300,595);
+       vertex(1305,595);
+       vertex(1305,585);
+       vertex(1300,585);
+       vertex(1300,580);
+       vertex(1200,580);
