@@ -50,3 +50,10 @@ boolean overshield_sound = false;
 boolean shutdown_sound = false;
 boolean beep_sound = false;
 boolean testbool = true;
+
+void draw()
+{
+     
+     font = createFont("Halo.ttf", 32);
+     textFont(font);
+     textSize(50);
