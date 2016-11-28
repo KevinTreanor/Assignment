@@ -143,3 +143,7 @@ void draw()
               {
                 image(view2,250,100);
                 fill(0, 235, 220,120);
+                rect(950,100,400,400);
+                fill(30,0,30);
+                text("The Halo Array, Halos,\n alternatively known as the Sacred\n Rings by the Covenant, \n Fortress Worlds by their creators,\n Installations by the A.I. Monitors\n that run them, and the Great Wheels\n by prehistoric humans, are seven\n (originally there were twelve) massive\n ring-shaped installations constructed by the\n Forerunners throughout the galaxy over \n one hundred thousand years ago as a \nlast resort when combating the parasite known\n as the Flood. When nothing else\n could be done, they activated\n the rings which killed all sentient life\n forms within three radii of the\n galactic center. Not only are they weapons\n of last resort, but the Halo installations\n are also research facilities, \nmainly for the study of the Flood.",951,110);
+               
