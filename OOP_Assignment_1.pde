@@ -215,3 +215,11 @@ void draw()
         vertex(838,75);
         vertex(538,75);
         endShape(CLOSE);
+        
+  
+        fill(0);
+        beginShape();
+        vertex(0,600);
+        vertex(200,713);
+        vertex(0,713);
+        endShape(CLOSE);
