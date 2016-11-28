@@ -159,3 +159,7 @@ void draw()
               if(mousePressed ==true)
               {
                 image(view3,250,100);
+                fill(0, 235, 220,120);
+                rect(950,100,400,400);
+                fill(30,0,30);
+                text("Vantage point. Ideal for scouting,\n gathering intel of surroundings. \n Could be used as a sniper nest. ",951,110);
