@@ -85,3 +85,7 @@ void draw()
         {
           text("Scanning....",1000,50);
         }
+         else
+        {
+          text("Scanning Complete", 1000,50);
+        }
