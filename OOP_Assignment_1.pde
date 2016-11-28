@@ -103,3 +103,6 @@ void draw()
        vertex(1300,585);
        vertex(1300,580);
        vertex(1200,580);
+       endShape(CLOSE);
+       fill(0,0,0);
+       textSize(10);
