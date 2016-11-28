@@ -258,3 +258,16 @@ void draw()
         theta += speed;
        
      }
+      time++;
+
+  if(power <=0)
+  {
+    
+    if(testbool == true)
+    {
+      shutdown_sound =true;
+      beep_sound = true;
+      sounds();
+      boop();
+      
+    }
