@@ -173,3 +173,8 @@ void draw()
           ellipse(350,500,10,10);
           if(340<= mouseX&& mouseX<= 360 && 490<=mouseY&& mouseY <= 510)
             {
+              
+              if(mousePressed ==true)
+              {
+                image(view4,250,100);
+                fill(0, 235, 220,120);
