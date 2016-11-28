@@ -89,3 +89,7 @@ void draw()
         {
           text("Scanning Complete", 1000,50);
         }
+         
+       
+       stroke(0,0,0);
+       fill(100,255,100,200);
