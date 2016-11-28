@@ -1,3 +1,5 @@
+import processing.sound.*;
+
 void setup()
 {
   size(1536,713);
