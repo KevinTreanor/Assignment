@@ -106,3 +106,7 @@ void draw()
        endShape(CLOSE);
        fill(0,0,0);
        textSize(10);
+       text(power,1225,590);
+       
+       stroke(0, 255, 240,200);
+       fill(0, 255, 240, 50);
