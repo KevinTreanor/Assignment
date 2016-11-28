@@ -300,3 +300,14 @@ void draw()
   }
 
 }
+void sounds()
+{
+ 
+ 
+   if(shutdown_sound ==  true)
+  {
+    Shutdown.play();
+  }
+  
+ testbool = false;
+}
