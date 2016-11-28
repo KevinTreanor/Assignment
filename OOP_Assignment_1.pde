@@ -223,3 +223,11 @@ void draw()
         vertex(200,713);
         vertex(0,713);
         endShape(CLOSE);
+        
+        
+  
+        beginShape();
+        vertex(1376,600);
+        vertex(1176,713);
+        vertex(1376,713);//Should be 1536 but my computer's resolution is too small to test it properly
+        endShape(CLOSE);
