@@ -79,3 +79,9 @@ void draw()
           power = power - 1.01;
           
         }
+        textSize(30);
+         fill(0, 255, 240, 200);
+        if(y<=712)
+        {
+          text("Scanning....",1000,50);
+        }
