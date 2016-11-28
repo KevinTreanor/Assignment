@@ -169,3 +169,7 @@ void draw()
         }
       
         if(y>=500)
+        {
+          ellipse(350,500,10,10);
+          if(340<= mouseX&& mouseX<= 360 && 490<=mouseY&& mouseY <= 510)
+            {
