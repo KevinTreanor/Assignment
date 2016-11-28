@@ -57,3 +57,8 @@ void draw()
      font = createFont("Halo.ttf", 32);
      textFont(font);
      textSize(50);
+            background(0,0,0);
+       image(view6,500,5);
+       fill(255,255,255,op);
+       text("Loading....",575,650);
+       op  = op+5;
