@@ -93,3 +93,8 @@ void draw()
        
        stroke(0,0,0);
        fill(100,255,100,200);
+       
+       beginShape();
+       vertex(1200,600);
+       vertex(1300,600);
+       vertex(1300,595);
