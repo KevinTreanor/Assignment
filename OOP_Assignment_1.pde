@@ -196,3 +196,11 @@ void draw()
                 image(view5,250,100);
                 fill(0, 235, 220,120);
                 rect(950,100,400,400);
+                fill(30,0,30);
+                text("Glacial U-Shaped valley carved out \n Approx. 1 million years ago. \n Trellis drainage patten on the floor\n of the basin. Trecherous for travel. ",951,110);
+              
+              }  
+            }
+        }
+        
+        
